@@ -32,7 +32,6 @@ func main() {
 
 	fmt.Println(valuesWithoutRange)
 
-
 	//the len function used to know the range of an array --note:not the values included
-	fmt.Println(len(valuesWithoutRange))\
+	fmt.Println(len(valuesWithoutRange))
 }
