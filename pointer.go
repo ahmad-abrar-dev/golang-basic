@@ -31,4 +31,7 @@ func main() {
 	var address4 *Address = new(Address)
 	address4.City = "Jakarta"
 	fmt.Println(address4)
+
+	//to call the value of a pointer use (*)
+	//e.g : *host
 }
