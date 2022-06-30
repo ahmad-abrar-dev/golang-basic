@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-// the empty interface is an interface who hasn't implement any struct
+// the empty interface is an interface that hasn't implement any struct
 // it can return or implement every data type
-// so basically implementing the interface is when we need all of the data type can be return
+// so basically implementing the empty interface is when we need all of the data type can be return
 // in other word the empty interface do not even care whatever the data type is
 
 // declarating an empty interface

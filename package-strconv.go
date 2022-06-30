@@ -19,11 +19,11 @@ func main() {
 
 	//base size
 	/*
-	* decimal = 10
-	* binary = 2
-	* octal = 8
-	* hexa = 16
-	 */
+		decimal = 10
+		binary = 2
+		octal = 8
+		hexa = 16
+	*/
 	number, err := strconv.ParseInt("1000000", 10, 64)
 	if err == nil {
 		fmt.Println(number)
