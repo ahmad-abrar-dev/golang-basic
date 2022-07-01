@@ -1,8 +1,17 @@
 ========SWITCH TO USE GO ROOT / GO MOD========
-to use the GOROOT make sure to inactive write this line of command on the terminal
+to use the GOROOT make sure to set off the GO111MODULE as the following command below
 > go env -w GO111MODULE=off
 
-NOTE: But after this command, you will be not able to use go mod init through terminal. You must create "go.mod" file manually.
+NOTE: But after this command, you will be not able to use go mod init through terminal. You must create "go.mod" 
+file manually. And also switched it off will make us have an ability to write code through outside the go environment
 
 to use somthing like gomod feature make sure to set on the GO111MODULE
 >  go env -w GO111MODULE=on
+
+
+/////////what next ??? /////////
+- unit test
+- modules
+- concurrency
+- database
+- web

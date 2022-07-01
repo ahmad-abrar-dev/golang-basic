@@ -23,4 +23,10 @@ func main() {
 
 	}
 
+	//sort if with 1 statement
+	a := 7
+	b := 7
+	result := a == b
+	fmt.Println(result)
+
 }
